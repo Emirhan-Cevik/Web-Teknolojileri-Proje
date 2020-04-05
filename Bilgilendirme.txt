@@ -1,0 +1,17 @@
+Bilgisayar Muhendisligi 2019-2020 bahar donemi web teknolojileri dersi proje odevidir.
+Derste ogrendigim bilgiler dogrultusunda hazir tema kullanmadan HTML,CSS,JAVASCRIPT ve 
+PHP kullanarak kendimi (Egitim bilgilerim,Hobilerim,Sevdigim spor vb.) ve memleketimi 
+tanitan kendi web sitemi tasarlayacagim.
+
+Proje linki = https://github.com/Emirhan-Cevik/Web-Teknolojileri-Proje
+
+Projenin Icerigi :
+
+-Ana sayfa (Diger sayfalara ulasacagim menu barindiracak) 
+-Hakkinda sayfasi (Sevdigim spor,etkinler vb.)
+-Ozgecmis sayfasi (Egitim bilgileri table ve div kullanarak yapilacak)
+-Sehir sayfasi (Memleketimi tanitan kisa bir metin ve resimlerden olusacak)
+-Mirasimiz sayfasi (Sehirdeki kulturel bir mekan tanitilacak) 
+-Login sayfasi (Kullanici adi ve sifre kontrolu yapilacak )
+-Iletisim sayfasi (form elemanlari kullanarak tasarlanacak ve gonderilen bilgiler baska sayfada
+goruntulenecek)ss
