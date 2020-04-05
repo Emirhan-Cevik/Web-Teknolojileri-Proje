@@ -14,4 +14,4 @@ Projenin Icerigi :
 -Mirasimiz sayfasi (Sehirdeki kulturel bir mekan tanitilacak) 
 -Login sayfasi (Kullanici adi ve sifre kontrolu yapilacak )
 -Iletisim sayfasi (form elemanlari kullanarak tasarlanacak ve gonderilen bilgiler baska sayfada
-goruntulenecek)ss
+goruntulenecek)
