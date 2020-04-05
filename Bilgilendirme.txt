@@ -1,3 +1,6 @@
+
+EMIRHAN CEVIK B191210039
+
 Bilgisayar Muhendisligi 2019-2020 bahar donemi web teknolojileri dersi proje odevidir.
 Derste ogrendigim bilgiler dogrultusunda hazir tema kullanmadan HTML,CSS,JAVASCRIPT ve 
 PHP kullanarak kendimi (Egitim bilgilerim,Hobilerim,Sevdigim spor vb.) ve memleketimi 
