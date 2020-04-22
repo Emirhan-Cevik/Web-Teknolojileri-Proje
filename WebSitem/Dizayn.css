@@ -1,0 +1,105 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background:#515079;
+}
+.banner{
+	width: 100%;
+	height: 120px;
+	background: #f4743c;
+}
+.banner1{
+	width: 100%px;
+	height: 120px;
+	margin: 0px auto;
+}
+.banner-sol{
+	width: 500px;
+	height: 120px;
+	float:left;
+}
+.banner-sag{
+	width: 500px;
+	height: 120px;
+	float: right;
+	text-align: right;
+}
+.temizle{
+	width: 100%px;
+	clear: both;
+}
+.menu{
+	width: 100%;
+	height: 45px;
+	background: #bf7642;  
+}
+.menu-binlik{
+	width:1000px;
+	height:45px;
+	margin:0px auto
+
+}
+.menu-binlik ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;	
+}
+.menu-binlik ul li{
+	float:left;	
+}
+
+.menu-binlik ul li a{
+	width: 165px;
+	height: 45px; 
+    font-family: Calibri;
+	font-size: 16px;
+	display: inline-block;
+	line-height: 45px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #FFDAA6;	
+	transition: 0.4s;
+	text-decoration:none;	
+}
+.menu-binlik ul li a:hover{
+	color:#ffffff;
+	cursor:pointer;
+	background:#c15525;
+	font-size:18px;		
+}
+
+.icerik{
+	margin:10px auto;
+	padding:40px 0 0 0;
+	width:1000px;
+	height:900px;	
+	background:#FFDAC6;
+}
+.hakkimda{
+	width:100%;
+	height:160px;	
+	background:#FFDAC6;
+}
+.hakkimdaResim{
+	height:160px;	
+	float:left;
+	margin: 0px 10px 0px 10px;
+}
+.bilgi{	
+	margin-top:10px;
+	color:black;
+	font-size:19px;
+	font-family:Times New Roman;
+}
+.slider{
+	margin-top:70px;
+}
+.baslik{
+	color:red;
+	font-size:30px;
+	padding-left:355px;
+}
+.table{
+	margin:20px auto;	
+}
