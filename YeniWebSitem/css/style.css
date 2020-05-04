@@ -175,8 +175,8 @@ list-style-image: url('../img/nav-icon.png') !important;
   color:#f10f0c;
 }
 
-#takimimizIcerik h3{
-  padding-left: 400px;
+#takimimizIcerik h2{
+  margin-left: 27%;
   color:#ca2b29;
   font-family: Geneva;
 }
@@ -185,3 +185,19 @@ list-style-image: url('../img/nav-icon.png') !important;
   font-family: Geneva;
 }
 
+.container-fluid2{
+  background-color: white;
+  margin:0px auto;
+}
+
+.container2{
+  width: 33%;
+  margin-top: 4%;
+  margin-left: 34%;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+  padding: 28px;
+}
+
+.button2{
+  width: 49%;
+}
