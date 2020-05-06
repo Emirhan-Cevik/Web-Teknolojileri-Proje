@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="tr">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
+
+  <title>LOGİN</title>
+  
+</head>
+<body>
+
+  <nav class="navbar bg-dark navbar-expand-lg text-white">
+    <div class="container py-2">
+      <a href="index.html" class="navbar-brand">EMİRHAN YAZILIM</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item px-3">
+            <a href="index.html" class="nav-link">HAKKIMDA</a>
+          </li>
+          <li class="nav-item px-3">
+            <a href="ozgecmisim.html" class="nav-link">ÖZGEÇMİŞİM</a>
+          </li>
+          <li class="nav-item px-3">
+            <a href="sehrim.html" class="nav-link">ŞEHRİM</a>
+          </li>
+          <li class="nav-item px-3">
+            <a href="takimimiz.html" class="nav-link">TAKIMIMIZ</a>
+          </li>
+          <li class="nav-item px-3">
+            <a href="iletisim.html" class="nav-link">İLETİŞİM</a>
+          </li>
+          <li class="nav-item px-3">
+            <a href="login.html" class="nav-link">LOGİN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <br><br>
+
+  <div class="cerceve">
+
+    <div class="IletisimContainer wow fadeInRight" data-wow-duration="1.5s">
+      <br>
+      <h2>İLETİŞİM FORMU</h2>
+      <br><br>
+      <div class="iletisimKutusu col-md-6 form-group">
+        <form action="" method="POST">
+
+          <div class="row">
+            <div class="col-md-6">
+             <label>İsim</label>
+             <input class="form-control" type="text" maxlength="20"  name="isim" required="">
+           </div>
+           <div class="col-md-6">
+             <label>Soyisim</label>
+             <input class="form-control" type="text" maxlength="20" name="soyad" required="">
+           </div>        
+         </div>
+
+         <label>E-mail</label><br>
+         <input class="form-control" type="email" name="email" required="">
+         <label>Telefon</label>
+         <input class="form-control" type="number" name="tel" required="">
+         <label>Doğum Tarihi</label>
+         <input class="form-control" type="date" name="dogumTarih" required="">
+
+         <label>Mesaj Konusu</label>
+         <select name="MesajKonu" class="form-control" required="">
+          <option>C++ Hakkında</option>
+          <option>C# Hakkında</option>
+          <option>Web Tasarım Hakkında</option>
+          <option>Diğer</option>
+        </select>
+
+        <hr>
+
+        <label>Aşağıdaki Dillerden Bildiğiniz Yabancı Dil Varsa İşaretleyiniz</label>
+        <br>
+        <label class="checkbox-inline"><input type="checkbox" value="">İngilizce</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">Almanca</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">Arapça</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">Rusça</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">Çince</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">Japonca</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">Fransızca</label>
+
+        <hr>
+
+        <label>Cinsiyet</label>
+        <label class="radio-inline"><input type="radio" name="optradio" checked>Erkek</label>
+        <label class="radio-inline"><input type="radio" name="optradio">Kız</label>
+
+        <hr>
+
+        <label>Mesaj</label>
+        <textarea id="textAreaOzellik" name ="aciklama" class="form-control" type="text" required=""></textarea>
+        <br>
+        <button class="btn btn-success" type="submit">Gönder</button>
+        <button class="btn btn-danger" type="reset">Temizle</button>
+      </form>
+    </div>
+  </div>
+
+</div><!--cerceve sonu-->
+
+<br><br><br>
+
+<div class="container-fluid mt-5">
+  <section id="footer">
+    <div class="container text-center">
+      <div class="row pt-3">
+        <div class="col-md-7">
+          <p>EMİRHAN ÇEVİK YAZILIM</p>        
+        </div>
+        <div class="col-md-2">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>        
+    </div>    
+  </section>  
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Animation -->
+<script src="script/wow.js"></script>
+<script>
+  new WOW().init();
+</script>
+
+</body>
+</html>
