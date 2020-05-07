@@ -13,105 +13,103 @@
 </head>
 <body>
 
-  <nav class="navbar bg-dark navbar-expand-lg text-white">
-    <div class="container py-2">
-      <a href="index.html" class="navbar-brand">EMİRHAN YAZILIM</a>
+  <div class="cerceve">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <a href="index.html" class="navbar-brand"><img width="200" src="img/logo.png"></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item px-3">
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
             <a href="index.html" class="nav-link">HAKKIMDA</a>
           </li>
-          <li class="nav-item px-3">
+          <li class="nav-item">
             <a href="ozgecmisim.html" class="nav-link">ÖZGEÇMİŞİM</a>
           </li>
-          <li class="nav-item px-3">
+          <li class="nav-item">
             <a href="sehrim.html" class="nav-link">ŞEHRİM</a>
           </li>
-          <li class="nav-item px-3">
+          <li class="nav-item">
             <a href="takimimiz.html" class="nav-link">TAKIMIMIZ</a>
           </li>
-          <li class="nav-item px-3">
+          <li class="nav-item">
             <a href="iletisim.html" class="nav-link">İLETİŞİM</a>
           </li>
-          <li class="nav-item px-3">
+          <li class="nav-item">
             <a href="login.html" class="nav-link">LOGİN</a>
           </li>
         </ul>
       </div>
-    </div>
-  </nav>
 
-  <br><br>
+    </nav>
+    <br>
 
-  <div class="cerceve">
 
-    <div class="IletisimContainer wow fadeInRight" data-wow-duration="1.5s">
+   <div class="IletisimContainer wow fadeInRight" data-wow-duration="1.5s">
+    <h2>İLETİŞİM</h2>
+    <div class="iletisimKutusu col-md-6 form-group">
       <br>
-      <h2>İLETİŞİM FORMU</h2>
-      <br>
-      <div class="iletisimKutusu col-md-6 form-group">
-
-        <form action="iletisimBilgileri.php" method="POST">
-
-          <div class="row">
-            <div class="col-md-6">
-             <label>İsim</label>
-             <input class="form-control" type="text" maxlength="20"  name="isim" required="">
-           </div>
-           <div class="col-md-6">
-             <label>Soyisim</label>
-             <input class="form-control" type="text" maxlength="20" name="soyad" required="">
-           </div>        
+      <form action="iletisimBilgileri.php" method="POST">
+        <div class="row">
+          <div class="col-md-6">
+           <label>İsim</label>
+           <input class="form-control" type="text" maxlength="20"  name="isim" required="">
          </div>
+         <div class="col-md-6">
+           <label>Soyisim</label>
+           <input class="form-control" type="text" maxlength="20" name="soyad" required="">
+         </div>        
+       </div>
 
-         <label>E-mail</label><br>
-         <input class="form-control" type="email" name="email" required="">
-         <label>Telefon</label>
-         <input class="form-control" type="number" name="tel" required="">
-         <label>Doğum Tarihi</label>
-         <input class="form-control" type="date" name="dogumTarih" required="">
+       <label>E-mail</label><br>
+       <input class="form-control" type="email" name="email" required="">
+       <label>Telefon</label>
+       <input class="form-control" type="number" name="tel" required="">
+       <label>Doğum Tarihi</label>
+       <input class="form-control" type="date" name="dogumTarih" required="">
 
-         <label>Mesaj Konusu</label>
-         <select name="MesajKonu" class="form-control" required="">
-          <option>C++ Hakkında</option>
-          <option>C# Hakkında</option>
-          <option>Web Tasarım Hakkında</option>
-          <option>Diğer</option>
-        </select>
+       <label>Mesaj Konusu</label>
+       <select name="MesajKonu" class="form-control" required="">
+        <option>C++ Hakkında</option>
+        <option>C# Hakkında</option>
+        <option>Web Tasarım Hakkında</option>
+        <option>Diğer</option>
+      </select>
 
-        <hr>
+      <hr>
 
-        <label>Aşağıdaki Dillerden Bildiğiniz Yabancı Dil Varsa İşaretleyiniz</label>
-        <br>
-        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="ingilizce">İngilizce</label>
-        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="almanca">Almanca</label>
-        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="arapça">Arapça</label>
-        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="rusça">Rusça</label>
-        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="çince">Çince</label>
-        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="japonca">Japonca</label>
-        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="fransızca">Fransızca</label>
+      <label>Aşağıdaki Dillerden Bildiğiniz Yabancı Dil Varsa İşaretleyiniz</label>
+      <br>
+      <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="ingilizce">İngilizce</label>
+      <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="almanca">Almanca</label>
+      <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="arapça">Arapça</label>
+      <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="rusça">Rusça</label>
+      <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="çince">Çince</label>
+      <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="japonca">Japonca</label>
+      <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="fransızca">Fransızca</label>
 
-        <hr>
+      <hr>
 
-        <label>Cinsiyet</label>
-        <label class="radio-inline"><input type="radio" name="radio" value="erkek">Erkek</label>
-        <label class="radio-inline"><input type="radio" name="radio" value="kız">Kız</label>
+      <label>Cinsiyet</label>
+      <label class="radio-inline"><input type="radio" name="radio" value="erkek">Erkek</label>
+      <label class="radio-inline"><input type="radio" name="radio" value="kız">Kız</label>
 
-        <hr>
+      <hr>
 
-        <label>Mesaj</label>
-        <textarea id="textAreaOzellik" name ="aciklama" class="form-control" type="text" required=""></textarea>
-        <br>
-        <button class="btn btn-success" name="Gonder" type="submit">Gönder</button>
-        <button class="btn btn-danger" type="reset">Temizle</button>
-      </form>
-    </div>
+      <label>Mesaj</label>
+      <textarea id="textAreaOzellik" name ="aciklama" class="form-control" type="text" required=""></textarea>
+      <br>
+      <button class="btn btn-success" name="Gonder" type="submit">Gönder</button>
+      <button class="btn btn-danger" type="reset">Temizle</button>
+    </form>
   </div>
+</div>
 
 </div><!--cerceve sonu-->
 
