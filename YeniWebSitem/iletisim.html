@@ -53,9 +53,10 @@
     <div class="IletisimContainer wow fadeInRight" data-wow-duration="1.5s">
       <br>
       <h2>İLETİŞİM FORMU</h2>
-      <br><br>
+      <br>
       <div class="iletisimKutusu col-md-6 form-group">
-        <form action="" method="POST">
+
+        <form action="iletisimBilgileri.php" method="POST">
 
           <div class="row">
             <div class="col-md-6">
@@ -87,26 +88,26 @@
 
         <label>Aşağıdaki Dillerden Bildiğiniz Yabancı Dil Varsa İşaretleyiniz</label>
         <br>
-        <label class="checkbox-inline"><input type="checkbox" value="">İngilizce</label>
-        <label class="checkbox-inline"><input type="checkbox" value="">Almanca</label>
-        <label class="checkbox-inline"><input type="checkbox" value="">Arapça</label>
-        <label class="checkbox-inline"><input type="checkbox" value="">Rusça</label>
-        <label class="checkbox-inline"><input type="checkbox" value="">Çince</label>
-        <label class="checkbox-inline"><input type="checkbox" value="">Japonca</label>
-        <label class="checkbox-inline"><input type="checkbox" value="">Fransızca</label>
+        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="ingilizce">İngilizce</label>
+        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="almanca">Almanca</label>
+        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="arapça">Arapça</label>
+        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="rusça">Rusça</label>
+        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="çince">Çince</label>
+        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="japonca">Japonca</label>
+        <label class="checkbox-inline"><input type="checkbox" name="veri[]" value="fransızca">Fransızca</label>
 
         <hr>
 
         <label>Cinsiyet</label>
-        <label class="radio-inline"><input type="radio" name="optradio" checked>Erkek</label>
-        <label class="radio-inline"><input type="radio" name="optradio">Kız</label>
+        <label class="radio-inline"><input type="radio" name="radio" value="erkek">Erkek</label>
+        <label class="radio-inline"><input type="radio" name="radio" value="kız">Kız</label>
 
         <hr>
 
         <label>Mesaj</label>
         <textarea id="textAreaOzellik" name ="aciklama" class="form-control" type="text" required=""></textarea>
         <br>
-        <button class="btn btn-success" type="submit">Gönder</button>
+        <button class="btn btn-success" name="Gonder" type="submit">Gönder</button>
         <button class="btn btn-danger" type="reset">Temizle</button>
       </form>
     </div>

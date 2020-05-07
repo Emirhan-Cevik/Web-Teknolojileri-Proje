@@ -1,14 +1,10 @@
 <?php
 
-if (isset($_POST['Gonder'])) {
+if (isset($_POST['Giris'])) {
 
 	if ($_POST['KullanıcıAd']=="b191210039@sakarya.edu.tr" && $_POST['Sifre']=="1234") {
 
 		echo "<script>alert('HOŞGELDİNİZ b191210039'); location.href='index.html'</script>";		
-	}
-
-	else if($_POST['KullanıcıAd']=="" || $_POST['Sifre']==""){
-		echo "<script>alert('KULLANICI ADI VEYA ŞİFRE BOŞ BIRAKILAMAZ'); location.href='login.html'</script>";
 	}
 
 	else{
